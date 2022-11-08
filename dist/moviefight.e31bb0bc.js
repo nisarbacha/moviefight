@@ -229,7 +229,7 @@ var autCompleteConfig = {
           switch (_context2.prev = _context2.next) {
             case 0:
               _context2.next = 2;
-              return axios.get('http://www.omdbapi.com/', {
+              return axios.get('https://www.omdbapi.com/', {
                 params: {
                   apikey: '3f3c6873',
                   s: searchTerm
@@ -277,7 +277,7 @@ var onMovieSelect = /*#__PURE__*/function () {
         switch (_context3.prev = _context3.next) {
           case 0:
             _context3.next = 2;
-            return axios.get('http://www.omdbapi.com/', {
+            return axios.get('https://www.omdbapi.com/', {
               params: {
                 apikey: '3f3c6873',
                 i: movie.imdbID
